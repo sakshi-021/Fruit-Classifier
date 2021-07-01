@@ -1,0 +1,82 @@
+body{
+    background-image: url('bg1.png');
+    background-size: 100% 100%;
+}
+.bodybg{
+    background-image: url('bg1.png');
+    background-size: 100% 100%;
+    margin: 2px;
+    background-repeat: no-repeat;
+}
+.container
+{
+    padding:170px;
+    padding-left: 500px;
+}
+#titlename {
+    margin-top: 20px;
+    color: rgb(184, 28, 28);
+    font-style: inherit;
+    font-size: 30px;
+    line-height: 50px;
+;
+
+}
+#h2style{
+    padding-left: 40px;
+    font-style:oblique ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#h4style{
+    display:inline-block;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.btn1:hover {
+     color: #333333; 
+     text-decoration: none; 
+     background-color: #e6e6e6; 
+     background-position: 0 -15px;
+      -webkit-transition: background-position 0.1s linear;
+       -moz-transition: background-position 0.1s linear; 
+       -ms-transition: background-position 0.1s linear;
+        -o-transition: background-position 0.1s linear; 
+        transition: background-position 0.1s linear; 
+    }
+    #h4style{
+    display:inline-block;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+    #predict{
+            
+               text-align: center;
+               align-content: center;
+                width: 135px;
+                height: 34px;
+    }
+    .btn1{
+        color:white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 40px;
+        font-size: larger;
+        font-family: cursive;
+        text-align: center;
+        background-color:rgb(52, 152, 219);
+    }
+    .text{
+           color: rgb(161, 22, 15);
+        font-style: unset;
+        font-family: cursive;
+        font-size: 25px;
+        margin-left: -330px;
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Fruit Classifier</title>
+	<link rel="stylesheet" href="../static/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<script>
+
+		$("#file-picker").change(function () {
+
+			var input = document.getElementById('file-picker');
+
+			for (var i = 0; i < input.files.length; i++) {
+				var ext = input.files[i].name.substring(input.files[i].name.lastIndexOf('.') + 1).toLowerCase()
+
+				if ((ext == 'jpg') || (ext == 'png')) {
+					$("#msg").text("Files are supported")
+				}
+				else {
+					$("#msg").text("Files are NOT supported")
+					document.getElementById("file-picker").value = "";
+				}
+
+			}
+
+
+		});
+
+	</script>
+
+</head>
+
+<body>
+	<div class="container">
+		<form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+
+
+
+			<div id="titlename">
+				<h1>Fruit Classifier!!</h1>
+			</div>
+			<div id="h2style">
+				<h2>Upload Image To Classify</h2>
+			</div>
+			<div>
+				<input type="file" name="file" accept="image/*" multiple>
+				<div></div>
+
+				<input id="predict" type="submit" class="btn1" value="Predict!">
+
+			</div>
+
+		</form>
+	</div>
+
+</body>
+
+</html>
