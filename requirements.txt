@@ -8,6 +8,6 @@ Keras-Preprocessing==1.1.2
 MarkupSafe==2.0.1
 numpy==1.19.5
 Pillow==8.2.0
-tensorflow==2.5.0
+tensorflow-cpu
 tensorflow-estimator==2.5.0
 Werkzeug==2.0.1
