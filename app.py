@@ -4,7 +4,7 @@ import os
 
 from flask import Flask, request, render_template, send_from_directory
 
-app = Flask(__name__,template_folder="Templates",static_folder="static")
+app = Flask(__name__,template_folder="./Templates",static_folder="static")
 app.debug=True
 
 
