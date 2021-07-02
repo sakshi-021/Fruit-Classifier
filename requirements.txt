@@ -5,7 +5,7 @@ itsdangerous
 Jinja2
 keras-nightly
 Keras-Preprocessing
-MarkupSaf
+MarkupSafe
 numpy
 Pillow
 tensorflow-cpu
